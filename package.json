@@ -1,0 +1,39 @@
+{
+  "name": "prisma-crash-course",
+  "version": "1.0.0",
+  "description": "The first attempt to try and understand prisma as ORM tool connecting with postgresql database",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "npx nodemon --exec npx tsx script.ts",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaqhobelaKao/prisma-crash-course.git"
+  },
+  "keywords": [
+    "prisma",
+    "orm"
+  ],
+  "author": "Maqhobela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaqhobelaKao/prisma-crash-course/issues"
+  },
+  "homepage": "https://github.com/MaqhobelaKao/prisma-crash-course#readme",
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@types/pg": "^8.21.0",
+    "nodemon": "^3.1.14",
+    "prisma": "^7.9.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.11",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.9.1",
+    "@prisma/client": "^7.9.1",
+    "dotenv": "^17.4.2",
+    "pg": "^8.22.0"
+  }
+}
